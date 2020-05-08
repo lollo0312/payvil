@@ -1,0 +1,23 @@
+th{
+    width: 14%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#glob{
+    margin: 50px;
+    width : 100%;
+    height: 200px;
+    display: none;
+    flex-direction: row;
+}
+#glob *{
+    font-family: sans-serif;
+    flex:1;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+#glob button{
+    background-color: blueviolet;
+    box-shadow: 0 0 10px black;
+}
